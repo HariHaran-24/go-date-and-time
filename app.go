@@ -20,6 +20,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", handler)
-	log.Fatal(http.ListenAndServe(":8080", nil)) // this will run on port 6543 , if you run on local system means go to browser type localhost:6544
-
+	log.Fatal(http.ListenAndServe(":8080", nil)) 
 }
