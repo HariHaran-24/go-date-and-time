@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-	name: clock-serv
+        name: clock-serv
         labels:
                 name: clock-serv
                 lang: go
